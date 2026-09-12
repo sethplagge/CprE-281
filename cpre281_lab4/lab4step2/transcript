@@ -1,0 +1,93 @@
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving
+# vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving 
+# Start time: 15:30:06 on Sep 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 4, found 1.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'T'.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'H'.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'P'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+add wave -position insertpoint  \
+sim:/lab4step2/P \
+sim:/lab4step2/H \
+sim:/lab4step2/T \
+sim:/lab4step2/M \
+sim:/lab4step2/AC
+do AC.do
+# Causality operation skipped due to absence of debug database file
+force -freeze sim:/lab4step2/P 1'h1 0
+force -freeze sim:/lab4step2/H 1'h1 0
+force -freeze sim:/lab4step2/T 1'h1 0
+force -freeze sim:/lab4step2/M 1'h0 0
+run 100
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+do AC.do
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+do AC.do
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of lab4step2.v was successful with warnings.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 4, found 1.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'T'.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'H'.
+# ** Warning: U:/Cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'P'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+do AC.do
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+do AC.do

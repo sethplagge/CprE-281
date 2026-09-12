@@ -1,0 +1,8 @@
+U:/Cpre281/lab3/lab3step2/lab3step2.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/lab3/lab3step2/lab3step2.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module farm
+
+Top level modules:
+	farm
+
+} {} {}}

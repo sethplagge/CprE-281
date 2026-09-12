@@ -1,0 +1,8 @@
+# Compile of lab3step3.v was successful.
+vsim -gui work.farm
+# vsim -gui work.farm 
+# Start time: 15:47:28 on Sep 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.farm(fast)
+add wave -position insertpoint sim:/farm/*
+do farm.do

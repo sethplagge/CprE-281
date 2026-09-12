@@ -1,0 +1,21 @@
+# Compile of lab4step1.v was successful.
+vsim -gui work.farmer
+# vsim -gui work.farmer 
+# Start time: 14:52:28 on Sep 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.farmer(fast)
+add wave -position insertpoint 100
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '100'.
+add wave -position insertpoint  \
+sim:/farmer/F \
+sim:/farmer/C \
+sim:/farmer/G \
+sim:/farmer/W \
+sim:/farmer/A
+do farmer.do
+# Cannot open macro file: farmer.do
+do farm.do
+# Project file U:/Cpre281/lab4/lab4step1.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 14:57:12 on Sep 25,2025, Elapsed time: 0:04:44
+# Errors: 0, Warnings: 4
