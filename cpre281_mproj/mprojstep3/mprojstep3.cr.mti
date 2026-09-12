@@ -1,0 +1,27 @@
+U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep1.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep1.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module mprojstep1
+
+Top level modules:
+	mprojstep1
+
+} {} {}} U:/Cpre281/cpre281_mproj/mprojstep3/multiplexor.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_mproj/mprojstep3/multiplexor.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module multiplexor
+
+Top level modules:
+	multiplexor
+
+} {} {}} U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module mprojstep3
+
+Top level modules:
+	mprojstep3
+
+} {} {}} U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3_inst.v {0 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3_inst.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+** Error: (vlog-13069) U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3_inst.v(20): near "mprojstep3_inst": syntax error, unexpected IDENTIFIER.
+** Error: U:/Cpre281/cpre281_mproj/mprojstep3/mprojstep3_inst.v(20): (vlog-13205) Syntax error found in the scope following 'mprojstep3'. Is there a missing '::'?
+
+} {3.0 5.0} {}}

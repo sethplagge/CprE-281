@@ -1,0 +1,3 @@
+module mprojstep1(w, x, y, z, B);
+	input w, x, y, z;
+	output B;

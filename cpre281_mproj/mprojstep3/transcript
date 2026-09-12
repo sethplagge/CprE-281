@@ -1,0 +1,18 @@
+# Compile of mprojstep1.v was successful.
+# Compile of mprojstep3.v was successful.
+# Compile of multiplexor.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.mprojstep3
+# vsim -gui work.mprojstep3 
+# Start time: 16:22:49 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mprojstep3(fast)
+add wave -position insertpoint  \
+sim:/mprojstep3/w \
+sim:/mprojstep3/x \
+sim:/mprojstep3/y \
+sim:/mprojstep3/z \
+sim:/mprojstep3/B
+do mprojstep3.do
+# End time: 16:30:18 on Oct 09,2025, Elapsed time: 0:07:29
+# Errors: 0, Warnings: 2

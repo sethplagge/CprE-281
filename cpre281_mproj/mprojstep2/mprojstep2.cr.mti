@@ -1,0 +1,8 @@
+U:/Cpre281/cpre281_mproj/mprojstep2/mprojstep2.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_mproj/mprojstep2/mprojstep2.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module mprojstep2
+
+Top level modules:
+	mprojstep2
+
+} {} {}}
