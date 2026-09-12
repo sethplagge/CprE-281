@@ -1,0 +1,7 @@
+module lab8step1(W0,W1,W2,W3,S,F)
+	input W0,W1,W2,W3,[1:0]S;
+	output F;
+	
+	assign F = S ? W0:W1:W2:W3;
+	
+endmodule

@@ -1,0 +1,22 @@
+U:/Cpre281/cpre281_lab7/lab7step3/lab7step3.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_lab7/lab7step3/lab7step3.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module lab7step3
+
+Top level modules:
+	lab7step3
+
+} {} {}} U:/Cpre281/cpre281_lab7/lab7step3/lab7step1.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_lab7/lab7step3/lab7step1.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module lab7step1
+
+Top level modules:
+	lab7step1
+
+} {} {}} U:/Cpre281/cpre281_lab7/lab7step3/lab7step2.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_lab7/lab7step3/lab7step2.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module lab7step2
+
+Top level modules:
+	lab7step2
+
+} {} {}}

@@ -1,0 +1,56 @@
+# Compile of lab8step1.v was successful.
+# Compile of lab8step2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab8step1 work.lab8step2
+# vsim -gui work.lab8step1 work.lab8step2 
+# Start time: 15:01:08 on Oct 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab8step1(fast)
+# Loading work.lab8step2(fast)
+add wave -position insertpoint  \
+sim:/lab8step2/x0 \
+sim:/lab8step2/x1 \
+sim:/lab8step2/x2 \
+sim:/lab8step2/x3 \
+sim:/lab8step2/xc1 \
+sim:/lab8step2/xc2 \
+sim:/lab8step2/xc3 \
+sim:/lab8step2/S \
+sim:/lab8step2/F3 \
+sim:/lab8step2/F2 \
+sim:/lab8step2/F1 \
+sim:/lab8step2/F0
+do shifter.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'X3' not found.
+# Error in macro ./shifter.do line 4
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'X3' not found.
+# 
+#     while executing
+# "force X3  1 0, 1 200, 1 400, 1 600, 1 800"
+do shifter.do
+quit -sim
+# End time: 15:09:22 on Oct 30,2025, Elapsed time: 0:08:14
+# Errors: 0, Warnings: 5
+# Compile of lab8step1.v was successful.
+# Compile of lab8step2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab8step1 work.lab8step2
+# vsim -gui work.lab8step1 work.lab8step2 
+# Start time: 15:10:02 on Oct 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab8step1(fast)
+# Loading work.lab8step2(fast)
+add wave -position insertpoint  \
+sim:/lab8step2/x0 \
+sim:/lab8step2/x1 \
+sim:/lab8step2/x2 \
+sim:/lab8step2/x3 \
+sim:/lab8step2/xc1 \
+sim:/lab8step2/xc2 \
+sim:/lab8step2/xc3 \
+sim:/lab8step2/S \
+sim:/lab8step2/F
+do shifter.do
+# Causality operation skipped due to absence of debug database file
+# End time: 15:25:55 on Oct 30,2025, Elapsed time: 0:15:53
+# Errors: 0, Warnings: 2

@@ -1,0 +1,53 @@
+# Compile of lab7step1.v was successful.
+# Compile of lab7step2.v was successful.
+# Compile of lab7step3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab7step3
+# vsim -gui work.lab7step3 
+# Start time: 17:44:52 on Oct 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab7step3(fast)
+force F 0 0, 1 400 -repeat 800
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'F' not found.
+# 
+force C 0 0, 1 200 -repeat 400
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'C' not found.
+# 
+force G 0 0, 1 100 -repeat 200
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'G' not found.
+# 
+force W 0 0, 1 50 -repeat 100
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# 
+
+run 800
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.lab7step3(fast)
+# Compile of lab7step1.v was successful.
+# Compile of lab7step2.v was successful.
+# Compile of lab7step3.v was successful.
+# 3 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/lab7step3/X3 \
+sim:/lab7step3/Y3 \
+sim:/lab7step3/X2 \
+sim:/lab7step3/Y2 \
+sim:/lab7step3/X1 \
+sim:/lab7step3/Y1 \
+sim:/lab7step3/X0 \
+sim:/lab7step3/Y0 \
+sim:/lab7step3/Control \
+sim:/lab7step3/Overflow \
+sim:/lab7step3/Cout \
+sim:/lab7step3/S3 \
+sim:/lab7step3/S2 \
+sim:/lab7step3/S1 \
+sim:/lab7step3/S0
+do waves.do
+# Cannot open macro file: waves.do
+do addeder.do
+# Cannot open macro file: addeder.do
+do adder.do
