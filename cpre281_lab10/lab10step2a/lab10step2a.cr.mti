@@ -1,0 +1,8 @@
+U:/Cpre281/cpre281_lab10/lab10step2a/lab10step2a.v {1 {vlog -work work -vopt -stats=none U:/Cpre281/cpre281_lab10/lab10step2a/lab10step2a.v
+QuestaSim-64 vlog 2025.1_2 Compiler 2025.04 Apr  7 2025
+-- Compiling module lab10step2a
+
+Top level modules:
+	lab10step2a
+
+} {} {}}

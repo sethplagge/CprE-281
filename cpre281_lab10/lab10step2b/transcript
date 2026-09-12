@@ -1,0 +1,44 @@
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 15:26:37 on Nov 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Q
+do lab10counter.do
+quit -sim
+# End time: 15:28:12 on Nov 13,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 5
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 15:28:35 on Nov 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Q
+do lab10counter.do
+quit -sim
+# End time: 15:30:33 on Nov 13,2025, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 2
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 15:30:44 on Nov 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Q
+do lab10counter.do
+# End time: 15:32:54 on Nov 13,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
